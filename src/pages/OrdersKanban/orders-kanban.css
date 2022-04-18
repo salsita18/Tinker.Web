@@ -1,0 +1,29 @@
+.kanban-container-div {
+  height: 100%;
+  max-height: 100%;
+  margin: 10px;
+  overflow: auto;
+}
+
+.kanban-container-title-div {
+  min-height: 48px;
+  display: flex;
+}
+
+.kanban-row-div {
+  height: 100%;
+  min-height: 300px;
+}
+
+div.kanban-card-div {
+  max-width: 30em;
+  margin: 1em;
+}
+
+.kanban-card-div > .ant-card-head {
+  min-height: 1em;
+}
+
+.kanban-card-div > .ant-card-head  .ant-card-head-title {
+  padding: .25em;
+}
